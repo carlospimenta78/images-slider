@@ -42,7 +42,7 @@ function App() {
 			<div style={container}>
 				{slides.map((slide, slideIndex) => (
 					<div key={slideIndex} onClick={() => goToImage(slideIndex)}>
-						O
+						{slideIndex + 1}
 					</div>
 				))}
 			</div>
